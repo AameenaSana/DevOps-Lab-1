@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/Maven-Jenkins-App.git'
+                git 'https://github.com/AameenaSana/DevOps-Lab-1'
             }
         }
 
@@ -53,7 +53,6 @@ pipeline {
     }
 
     post {
-
         success {
             echo 'BUILD SUCCESS'
         }
